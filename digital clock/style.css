@@ -1,60 +1,50 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    
 }
-.container{
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(to right,rgb(237, 10, 10),rgb(93, 93, 199));
-    padding: 10px;
-}
-.clock{
+body,.clock{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin: 172px 110px 210px 119px;
-    padding: 110px 40px 110px 40px;
-    font-size: 76px;
+    
 }
-.hrs{
-    padding: 31px 31px 31px 31px;
-    color: gold;
-    background: black;
-    border-radius: 22px;
-    margin-right: -78px;
+body{
+    min-height: 100vh;
+    background-color: plum;
 }
-.dts1{
-    padding: 31px 31px 31px 31px;
+
+.clock{
+    position: relative;
     color: white;
-    background: black;
-    border-radius: 22px;
-    margin-right: -78px;
+    font-size: 8rem;
+    font-weight: lighter;
+    background-color: black;
+    border-radius: 12px;
+    padding: 32px; 
 }
-.mins{
-    padding: 31px 31px 31px 31px;
-    color: gold;
-    background: black;
-    border-radius: 22px;
-    margin-right: -78px;
+
+
+.hours{
+    color:aquamarine ;
+
 }
-.dts2{
-    padding: 31px 31px 31px 31px;
-    color: white;
-    background: black;
-    border-radius: 22px;
-    margin-right: -78px;
+.dots1{
+    color: blue;
+    animation: blinker 2s linear infinite;
 }
-.scnds{
-    padding: 31px 31px 31px 31px;
-    color: gold;
-    background: black;
-    border-radius: 22px;
-    margin-right: -78px;
+.minutes{
+    color:aquamarine ;
 }
-.time{
-    padding: 31px 31px 31px 31px;
-    color: gold;
-    background: black;
-    border-radius: 22px;
+.dots2{
+    color: blue;
+    animation: blinker 2s linear infinite;
+}
+.seconds{
+    color:aquamarine ;
+}
+.periods{
+    margin-left: 32px;
+    color: skyblue;
 }
